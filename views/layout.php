@@ -25,5 +25,8 @@
         </nav>
         <hr>
     </header>
-
+    
     <main>
+    <footer style="background-color: #f1f1f1; padding: 20px 0; text-align: center; color: #333; font-family: Arial, sans-serif;">
+    <p>&copy; <?php echo "Farkas Bence - OYMRJV || Cs. Nagy Dániel - FN25MA"; ?>
+    </footer>
