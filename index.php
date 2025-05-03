@@ -37,6 +37,16 @@ switch ($page) {
         require 'controllers/WeaponController.php';
         showWeaponList();
         break;
+
+    case 'kapcsolat':
+        require 'controllers/kapcsolatController.php';
+        include 'views/kapcsolat.php';
+            break;
+
+    case 'uzenetek':
+        include 'views/uzenetek.php';
+            break;
+
     case 'home':
     default:
         require 'views/home.php';
