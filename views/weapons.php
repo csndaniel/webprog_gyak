@@ -7,11 +7,11 @@
         <th>Típus</th>
         <th>Leírás</th>
     </tr>
-    <?php foreach ($weapons as $weapon): ?>
+    <?php foreach ($weapons as $fegyver): ?>
         <tr>
-            <td><?= htmlspecialchars($weapon['name']) ?></td>
-            <td><?= htmlspecialchars($weapon['type']) ?></td>
-            <td><?= htmlspecialchars($weapon['description']) ?></td>
+            <td><?= htmlspecialchars($fegyver['name']) ?></td>
+            <td><?= htmlspecialchars($fegyver['type']) ?></td>
+            <td><?= htmlspecialchars($fegyver['description']) ?></td>
         </tr>
     <?php endforeach; ?>
 </table>
